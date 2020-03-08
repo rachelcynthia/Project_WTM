@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WTM PROJECTS</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<script>
+    function request()
+    {
+        name=document.getElementById("book_name").value;
+        author=document.getElementById("author").value;
+        alert("The book you have requested is "+name+" by "+author);
+        prompt("We will get back to you in 3 days"+"\n"+"Please provide your mail id:");
+        alert("Thank you");
+        window.location("#homepage");
+        
+    }
+    </script>
+    </head>
+    
+    <body>
+        
+        <div id="navdiv">
+            <div id="inside_nav">The Book Store</div>
+            <nav>
+                 <a href="#request" class="nav_a">REQUEST</a>
+                <a href="#book" class="nav_a">BOOKS</a> 
+                <a href="#navdiv" class="nav_a">HOME</a>  
+            </nav>
+        </div>
+  <script>alert("Welcome!");</script>
+        <div id="homepage">
+            <div id="homepage_text">
+                <div id="maintext">
+                    <div id="maintext_content">
+                        Welcome to the world of books!
+                    </div>
+                    <div id="maintext_2">
+                        You are at the right place to discover the best!
+                    </div>
+                    <center>
+                        <div id="ref">
+                            <a href="#book" id="ref_text">SEE BOOKS</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+    
+    
+        <div id="book">
+            
+            <div class="book_line">
+                <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/the_davinci_code.jpg" alt="book_img"/>
+                        <div class="desc">
+                            The Da Vinci Code<br>
+                            Price: Rs. 650/-
+                        </div>
+                    </div>
+                </div>
+                 <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/angels_and_demons.jpg" alt="book_img" />
+                        <div class="desc">
+                           Angels and Demons<br>
+                            Price: Rs.500/-
+                        </div>
+                    </div>
+                 </div>
+                <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/digital-fortress.png" alt="book_img" />
+                        <div class="desc">
+                              I heard that song before<br>
+                              Price: Rs.350/-
+                        </div>
+                    </div>
+                </div>
+                 <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/origin.jpg" alt="book_img"/>
+                        <div class="desc">
+                            The Cradle will Fall<br>
+                            Price: Rs.400/-
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+           
+            
+            
+            <div class="book_line">
+                <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/where_are_the_children.jpg" alt="book_img"/>
+                        <div class="desc">
+                            Where are the children?<br>
+                            Price: Rs. 450/-
+                        </div>
+                        
+                    </div>
+                </div>
+                 <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/two_little_girls_in_blue.jpg" alt="book_img" />
+                        <div class="desc">
+                            Two little girls in blue<br>
+                            Price: Rs.350/-
+                        </div>
+                        
+                    </div>
+                 </div>
+                <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/i_heard_that_song_before.jpg" alt="book_img"/>
+                        <div class="desc">
+                              I heard that song before<br>
+                              Price: Rs.400/-
+                        </div>
+                        
+                    </div>
+                </div>
+                 <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/the_cradle_will_fall.jpg" alt="book_img" />
+                        <div class="desc">
+                            The Cradle will Fall<br>
+                            Price: Rs.450/-
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="book_line">
+                <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/Murder_on_the_Orient_Express.jpg" alt="book_img"/>
+                        <div class="desc">
+                           Murder On the Orient Express<br>
+                            Price: Rs. 350/-
+                        </div>
+                        
+                    </div>
+                </div>
+                 <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/appointment_with_death.jpg" alt="book_img" />
+                        <div class="desc">
+                            Appointment with Death<br>
+                            Price: Rs.550/-
+                        </div>
+                       
+                    </div>
+                 </div>
+                <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/death_on_the_nile.jpg" alt="book_img" />
+                        <div class="desc">
+                              Death on the Nile<br>
+                              Price: Rs.550/-
+                        </div>
+                    </div>
+                </div>
+                 <div class="book_targ">
+                    <div class="thumbnail">
+                        <img src="images/41fzALTBP5L.jpg" alt="book_img"/>
+                        <div class="desc">
+                            The Mysterious Affair at Styles<br>
+                            Price: Rs.650/-
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    <br>
+    <div id="request">
+        <div id="content">REQUEST BOOKS</div>
+        <form>
+            <a class="input_con">BOOK NAME</a><input type="text" id="book_name"><br>
+            <a class="input_con">BOOK AUTHOR</a><input type="text" id="author"><br>
+            <button type="submit" onclick="request()"><a class="input_co">REQUEST</a></button>
+        </form>
+    </div>
+     <div style="float:right"><a href="#homepage">BACK TO TOP</a></div>
+     <div class="footer">
+         Contact us at thebookstore@gmail.com | +044 4356 8724
+     </div>
+    </body>
+</html>
