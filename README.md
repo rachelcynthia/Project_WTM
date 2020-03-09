@@ -1,5 +1,5 @@
 # Project_WTM
-Project Title : A Book Request web page (using HTML,CSS,JS)
+Project Title : A Book Request web page (using HTML, CSS, JS)
 
 Description: A web page to view the different books present in "The Book Store".
              It shows a snapshot of the book along with name and price.It also
