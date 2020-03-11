@@ -15,4 +15,15 @@ the overlapping of different elements happen. I also learnt the importance of ja
 in making the web page dynamic
 
 
+10 things to improve:
 
+1. Make the layout that displayed the grid of books uniform.
+2. Display the author's name along with the title.
+3. Add a navbar that also works when in the same element.
+4. Add a backgound colour.
+5. Make the thumbnail of books smaller.
+6. Add 5 books in a row.
+7. Make the book store in navbar linked to the top of the page.
+8. Style the request section to look more professional
+9. Navbar to be displayed on the first div also.
+10. Add a checkbox of list to display the ordered books.
