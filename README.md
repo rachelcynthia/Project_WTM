@@ -29,12 +29,21 @@ in making the web page dynamic
 10. Add a checkbox of list to display the ordered books.
 
 Edited by Jerusha
+I appreciate you for getting this done so quickly.A few things which I felt could be made right are,
+
 •	Should have tested it in other systems rather than only checking it at one system to make sure it works fine everywhere as it is not aligned when I browse it in mine.
+
 •	Each time I place an order for a book the welcome tab is repeatedly appearing which could be avoided.
+
 •	Should have saved all the images using .png extension.
+
 •	Provisions for more than one order could have been given.
+
 •	Should have used an alt attribute so that if the image is missing some text could be displayed.
+
 •	The code could have been commented.
+
 •	The number of books in a row could be more.
+
 •	The navigation tab works only in the home page and not on other pages.
 
